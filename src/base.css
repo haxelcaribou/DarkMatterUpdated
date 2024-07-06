@@ -248,7 +248,7 @@ div[class^="sidebar_"]>nav>div[class^="searchBar"] {
 	--background-modifier-hover: rgba(var(--dm-white), 0.07);
 	--background-modifier-active: var(--background-modifier-hover);
 	--background-modifier-selected: rgba(var(--dm-white), 0.07);
-	background: rgb(var(--md-black), 0.9);
+	background: rgb(var(--md-black), 0.6);
 }
 
 div[data-list-id^="members_"][class*="scrollerBase_"] {
@@ -327,9 +327,9 @@ nav+div[class^='base_']>div[class^="notice"] {
 
 div[class^='base_']>div,
 section[class*="themed_"] {
-	--background-secondary: rgba(var(--md-black), 0.7);
+	--background-secondary: rgba(var(--md-black), 0.5);
 	--background-tertiary: rgba(var(--dm-white), 0.05);
-	--background-primary: rgba(var(--md-black), 0.8);
+	--background-primary: rgba(var(--md-black), 0.6);
 }
 
 #app-mount>div:not([class^="appDevToolsWrapper_"]),
@@ -346,7 +346,7 @@ section[class*="themed_"] {
 section[class*="themed_"] {
 	height: 54px;
 	box-shadow: var(--elevation-low);
-	background-color: rgb(var(--md-black), 0.925) !important;
+	background-color: rgb(var(--md-black), 0.85) !important;
 	--background-secondary: rgba(var(--dm-white), 0.1);
 }
 
