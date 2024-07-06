@@ -100,7 +100,8 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	background-clip: padding-box !important;
 }
 
-.none__51a8f::-webkit-scrollbar {
+.none_c49869::-webkit-scrollbar,
+#emoji-picker-tab-panel div[class^="categoryList"] div[class^="scrollerBase"]::-webkit-scrollbar {
 	display: none !important;
 }
 
@@ -765,4 +766,9 @@ div[class*="footerSeparator"] {
 
 li[class^="card_"]>div[class^="container_"] {
 	background: var(--background-floating)
+}
+
+/* Settings */
+div[class^="accountProfileCard_"] div[class^="fieldList_"] {
+	background: var(--background-dark)
 }
