@@ -6,11 +6,12 @@
  * @source https://github.com/haxelcaribou/DarkMatterUpdated.git
 */
 
-@import url('https://raw.githubusercontent.com/haxelcaribou/DarkMatterUpdated/main/src/base.css');
+@import url('https://raw.githubusercontent.com/haxelcaribou/DarkMatterUpdated/variant/src/base.css');
+
 
 /* Variables */
 :root {
-    --avatar-size: 64px;
+	--avatar-size: 64px;
 	--background-image: url('https://i.imgur.com/7SbtKvw.png');
 	--home-image: url('https://i.imgur.com/233d55Y.gif');
 	--background-solid: #161921;
@@ -18,7 +19,7 @@
 	--background-solid-darker: #0c0e12;
 	--accent: 115, 58, 173;
 	--accent-alt: 61, 30, 97;
-    /* Dark Matter Updated */
+	/* Dark Matter Updated */
 	--server-icon-size: 42px;
 	--brightness: 0.8;
 }
