@@ -245,12 +245,8 @@ div[class*="userPanelOuter"][class*="Unthemed"] div[class^="banner_"] {
 }
 
 div[class*="userPanelOuter"][class*="Themed"] {
-	background: linear-gradient(rgba(from var(--profile-gradient-primary-color) r g b / 0.4),
-			rgba(from var(--profile-gradient-secondary-color) r g b / 0.4));
-	/*
-	--profile-gradient-primary-color: rgba(from var(--profile-gradient-primary-color) r g b / 0.5);
-	--profile-gradient-secondary-color: rgba(from var(--profile-gradient-secondary-color) r g b / 0.5);
-	*/
+	background: linear-gradient(rgba(from var(--profile-gradient-primary-color) r g b / 0.6),
+			rgba(from var(--profile-gradient-secondary-color) r g b / 0.6));
 }
 
 div[class*="userPanelInner"] {
