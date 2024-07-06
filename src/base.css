@@ -242,6 +242,32 @@ div[class^="sidebar_"]>nav>div[class^="searchBar"] {
 	height: 54px;
 }
 
+/* User Profile */
+
+div[class*="userPanelOuter"][class*="Unthemed"] {
+	background: rgba(var(--md-black), 0.75);
+}
+
+div[class*="userPanelOuter"][class*="Unthemed"] div[class^="banner_"] {
+	opacity: 0.7;
+}
+
+div[class*="userPanelOuter"][class*="Themed"] {
+	background: linear-gradient(rgba(from var(--profile-gradient-primary-color) r g b / 0.6),
+			rgba(from var(--profile-gradient-secondary-color) r g b / 0.6));
+}
+
+div[class*="userPanelInner"] {
+	background: transparent;
+}
+
+
+div[class*="userPanelInner"] div[class^="overlayBackground"] {
+	--profile-body-background-color: rgba(var(--md-black), 0.6);
+	--profile-body-background-hover: rgba(var(--md-black), 0.3);
+}
+
+
 /* members wrapper */
 
 .container-2o3qEW,
