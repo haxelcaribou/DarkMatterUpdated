@@ -18,4 +18,7 @@
 	--background-solid-darker: #0c0e12;
 	--accent: 115, 58, 173;
 	--accent-alt: 61, 30, 97;
+    /* Dark Matter Updated */
+	--server-icon-size: 42px;
+	--brightness: 0.8;
 }
