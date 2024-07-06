@@ -148,7 +148,7 @@ nav[class*="guilds_"] {
 ul[data-list-id='guildsnav'] {
 	--background-secondary: var(--background-solid);
 	--background-primary: rgba(var(--dm-white), 0.1);
-	margin-bottom: 70px;
+	padding-bottom: 70px;
 	background-color: rgba(var(--md-black), 0.6);
 	border-right: 1px solid rgba(var(--md-black), 0.2);
 	box-shadow: inset -10px 0px 20px -10px rgba(var(--md-black), 0.3);
