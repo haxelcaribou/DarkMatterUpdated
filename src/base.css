@@ -196,18 +196,9 @@ span[class^="expandedFolderBackground_"] {
 	height: var(--server-icon-size);
 }
 
-/* div[data-list-item-id="guildsnav___home"] {
-	background: var(--home-image) top center/110% no-repeat;
-} */
-
 div[class^="unreadMentionsIndicatorBottom_"] {
 	bottom: 70px;
 }
-
-/* #app-mount [data-list-item-id="guildsnav___home"]>div {
-	color: transparent;
-	background-color: transparent;
-} */
 
 div[data-list-item-id="guildsnav___create-join-button"],
 div[data-list-item-id="guildsnav___guild-discover-button"] {
@@ -243,6 +234,7 @@ div[class^="sidebar_"]>nav>div[class^="searchBar"] {
 }
 
 /* members wrapper */
+
 .container-2o3qEW {
 	--background-secondary: rgba(var(--md-black), 0.4);
 	--background-modifier-hover: rgba(var(--dm-white), 0.07);
