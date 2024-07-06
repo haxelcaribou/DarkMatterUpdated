@@ -52,7 +52,7 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	--background-secondary: var(--background-solid);
 	--background-accent: var(--background-solid);
 	--background-message-hover: rgba(var(--md-black), 0.4);
-	--background-mentioned: rgba(var(--accent), 0.1);
+	--background-mentioned: rgba(var(--accent), 0.2);
 	--background-mentioned-hover: var(--background-mentioned);
 	--info-warning-foreground: rgb(var(--accent));
 	--channeltextarea-background: transparent;
