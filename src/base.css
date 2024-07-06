@@ -100,7 +100,7 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	background-clip: padding-box !important;
 }
 
-.none__51a8f::-webkit-scrollbar {
+div#emoji-picker-tab-panel div[class*="categoryList"] div[class*="scrollerBase"]::-webkit-scrollbar {
 	display: none !important;
 }
 
