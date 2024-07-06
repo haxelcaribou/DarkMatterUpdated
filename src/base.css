@@ -236,15 +236,15 @@ div[class^="sidebar_"]>nav>div[class^="searchBar"] {
 
 /* User Profile */
 
-div[class*="userProfileOuter"][class*="Unthemed"] {
+div[class*="userPanelOuter"][class*="Unthemed"] {
 	background: rgba(var(--md-black), 0.75);
 }
 
-div[class*="userProfileOuter"][class*="Unthemed"] div[class^="banner_"] {
+div[class*="userPanelOuter"][class*="Unthemed"] div[class^="banner_"] {
 	opacity: 0.7;
 }
 
-div[class*="userProfileOuter"][class*="Themed"] {
+div[class*="userPanelOuter"][class*="Themed"] {
 	background: linear-gradient(rgba(from var(--profile-gradient-primary-color) r g b / 0.4),
 			rgba(from var(--profile-gradient-secondary-color) r g b / 0.4));
 	/*
@@ -253,12 +253,12 @@ div[class*="userProfileOuter"][class*="Themed"] {
 	*/
 }
 
-div[class*="userProfileInner"] {
+div[class*="userPanelInner"] {
 	background: transparent;
 }
 
 
-div[class*="userProfile"] div[class^="overlayBackground"] {
+div[class*="userPanelInner"] div[class^="overlayBackground"] {
 	--profile-body-background-color: rgba(var(--md-black), 0.6);
 	--profile-body-background-hover: rgba(var(--md-black), 0.3);
 }
