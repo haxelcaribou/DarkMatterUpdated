@@ -249,8 +249,9 @@ div[class^="sidebar_"]>nav>div[class^="searchBar"] {
 
 .container-2o3qEW,
 .container_cbd271,
-div[class*="membersWrap_"] {
+div[class^="membersWrap_"] {
 	--background-secondary: rgba(var(--md-black), 0.4);
+	--custom-channel-members-bg: rgba(var(--md-black), 0.4);
 	--background-modifier-hover: rgba(var(--dm-white), 0.07);
 	--background-modifier-active: var(--background-modifier-hover);
 	--background-modifier-selected: rgba(var(--dm-white), 0.07);
