@@ -266,7 +266,8 @@ div[class*="userPanelInner"] div[class^="overlayBackground"] {
 /* members wrapper */
 
 .container-2o3qEW,
-div[class^="membersWrap_"] {
+.container_cbd271,
+div[class*="membersWrap_"] {
 	--background-secondary: rgba(var(--md-black), 0.4);
 	--background-modifier-hover: rgba(var(--dm-white), 0.07);
 	--background-modifier-active: var(--background-modifier-hover);
