@@ -77,6 +77,8 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	--focus-primary: rgba(var(--accent), 1);
 	--modal-background: var(--background-solid);
 	--modal-footer-background: var(--background-solid-darker);
+	--custom-channel-members-bg: rgba(var(--md-black), 0.4);
+	--card-secondary-bg: var(--background-solid);
 }
 
 ::selection {
@@ -262,6 +264,10 @@ div[class*="userPanelInner"] div[class^="overlayBackground"] {
 	--profile-body-background-hover: rgba(var(--md-black), 0.3);
 }
 
+div[class*="statusBubbleOuter_"] {
+	--custom-status-bubble-background: var(--background-solid);
+}
+
 
 /* members wrapper */
 
@@ -269,7 +275,6 @@ div[class*="userPanelInner"] div[class^="overlayBackground"] {
 .container_cbd271,
 div[class^="membersWrap_"] {
 	--background-secondary: rgba(var(--md-black), 0.4);
-	--custom-channel-members-bg: rgba(var(--md-black), 0.4);
 	--background-modifier-hover: rgba(var(--dm-white), 0.07);
 	--background-modifier-active: var(--background-modifier-hover);
 	--background-modifier-selected: rgba(var(--dm-white), 0.07);
