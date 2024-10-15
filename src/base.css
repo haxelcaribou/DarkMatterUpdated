@@ -79,6 +79,7 @@ div[class*="userProfile"][class*="unThemed"].theme-light {
 	--modal-footer-background: var(--background-solid-darker);
 	--custom-channel-members-bg: rgba(var(--md-black), 0.4);
 	--card-secondary-bg: var(--background-solid);
+	--background-nested-floating: var(--background-solid);
 }
 
 ::selection {
