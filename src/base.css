@@ -242,25 +242,25 @@ div[class^="sidebar_"]>nav>div[class^="searchBar"] {
 
 /* User Profile */
 
-div[class*="userPanelOuter"][class*="Unthemed"] {
+div[class*="outer_"][class*="panel_"]{
 	background: rgba(var(--md-black), 0.75);
 }
 
-div[class*="userPanelOuter"][class*="Unthemed"] div[class^="banner_"] {
+div[class*="outer_"][class*="panel_"] div[class^="banner_"] {
 	opacity: 0.7;
 }
 
-div[class*="userPanelOuter"][class*="Themed"] {
+div[class*="outer_"][class*="panel_"][class*="custom-theme-background"] { 
 	background: linear-gradient(rgba(from var(--profile-gradient-primary-color) r g b / 0.6),
 			rgba(from var(--profile-gradient-secondary-color) r g b / 0.6));
 }
 
-div[class*="userPanelInner"] {
+div[class*="inner_"][class*="panel_"] {
 	background: transparent;
 }
 
 
-div[class*="userPanelInner"] div[class^="overlayBackground"] {
+div[class*="inner_"][class*="panel_"] div[class^="overlayBackground"] {
 	--profile-body-background-color: rgba(var(--md-black), 0.6);
 	--profile-body-background-hover: rgba(var(--md-black), 0.3);
 }
@@ -268,7 +268,6 @@ div[class*="userPanelInner"] div[class^="overlayBackground"] {
 div[class*="statusBubbleOuter_"] {
 	--custom-status-bubble-background: var(--background-solid);
 }
-
 
 /* members wrapper */
 
