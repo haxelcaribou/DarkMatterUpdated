@@ -808,3 +808,13 @@ li[class^="card_"]>div[class^="container_"] {
 div[class^="accountProfileCard_"] div[class^="fieldList_"] {
 	background: var(--background-dark)
 }
+
+/* Status Bubble */ /* TODO: use better selectors */
+.inner_ab8609 {
+	--custom-status-bubble-background: var(--background-solid-dark);
+}
+
+.panel_ab8609::before,
+.panel_ab8609::after {
+	background: var(--background-solid-dark);
+}
