@@ -366,7 +366,7 @@ section[class*="themed_"] {
 }
 
 #app-mount>div:not([class^="appDevToolsWrapper_"]),
-.autocomplete-1vrmpx {
+.autocomplete__13533 {
 	--background-primary: var(--background-solid);
 	--background-secondary: var(--background-solid-dark);
 	--background-secondary-alt: var(--background-solid-darker);
@@ -686,7 +686,7 @@ div[role="menuitem"]:active {
 #app-mount .tierMarkerBackground-3q29am,
 .css-3vaxre-menu,
 .css-dwar6a-menu,
-#app-mount .autocomplete-1vrmpx,
+#app-mount .autocomplete__13533,
 .categoryHeader-O1zU94,
 #app-mount .popoutList-T9CKZQ,
 #app-mount .quickSelectPopout-X1hvgV,
